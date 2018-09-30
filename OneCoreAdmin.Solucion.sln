@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCoreAdmin.Data", "OneCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneCoreAdmin.Business", "OneCoreAdmin.Business\OneCoreAdmin.Business.csproj", "{1BE8018B-3B44-47B8-AAEF-B227174711F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{B62B15F6-6B47-47D7-BF6D-D2380C2A826A}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Create DataBase OneCoreAdmin.sql = Resources\Create DataBase OneCoreAdmin.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
