@@ -83,5 +83,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OneCoreAdmin.Framework\OneCoreAdmin.Framework.csproj">
+      <Project>{4965dc9e-be5d-4115-b019-bf424d3a0fbf}</Project>
+      <Name>OneCoreAdmin.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

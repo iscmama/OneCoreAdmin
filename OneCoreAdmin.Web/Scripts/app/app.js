@@ -6,6 +6,8 @@
         'ngResource',
         'ngStorage',
         'ng.deviceDetector',
-        'loadDisplay'
+        'loadDisplay',
+        'vcRecaptcha',
+        'blockUI'
     ]);
 })();
